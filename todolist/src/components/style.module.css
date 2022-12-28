@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    padding: 16px 32px 32px 32px;
+    border-right: 1px solid #f1f1f1;
+}
+
+.section1 {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 5px;   
+}
+
+
+.label {
+    display: block;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: rgb(13, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+.submit {
+    margin-top: 10px;
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10;
+}
+
+/* -----------------------------------list --------- */
+.mainList {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background: #f4b836;
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+}
+
+.completed {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background: #0ff807;
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+}
+
+.list span{
+    height: 38px;
+    margin: 0 10px;
+}
+
+.list img{
+    width: 20px;
+    height: 20px;
+
+}
